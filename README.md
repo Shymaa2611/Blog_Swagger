@@ -56,9 +56,29 @@ urlpatterns = [
         template_name='docs.html',
         extra_context={'schema_url':'api_schema'}
         ), name='swagger-ui'),
-
-
-
-        ![swagger](https://github.com/Shymaa2611/Blog_using_Swagger/assets/137145389/f744cbf6-4f49-4a46-9dc6-72a10eaef5e7)
 ]
 http://127.0.0.1:8000/docs/
+
+
+
+
+https://github.com/Shymaa2611/Blog_using_Swagger/assets/137145389/cd872a39-a8df-411f-ba3d-fe88871b2527
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
