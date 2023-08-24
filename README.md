@@ -16,12 +16,13 @@ urlpatterns = [
 ]
 
 </pre>
-http://127.0.0.1:8000/api_schema/
+<p>http://127.0.0.1:8000/api_schema/</p>
+<pre>
 3-install Django Swagger module:
 pip install django-rest-swagger
 4- add 'rest_framework_swagger' to INSTALLED_APPS
 5-create the HTML template file  documntation.html in templates/
-
+</pre>
 <!DOCTYPE html>
 <html>
   <head>
@@ -47,12 +48,9 @@ pip install django-rest-swagger
   </body>
 </html>
 
-6- add  this code in project/urls.py
+<p>6- add  this code in project/urls.py</p>
+<pre>
 from django.views.generic import TemplateView
-
-
-
-
 
 urlpatterns = [
     path('docs/', TemplateView.as_view(
@@ -60,12 +58,13 @@ urlpatterns = [
         extra_context={'schema_url':'api_schema'}
         ), name='swagger-ui'),
 ]
-http://127.0.0.1:8000/docs/
+</pre>
+<p>http://127.0.0.1:8000/docs/</p>
+
+<p>https://github.com/Shymaa2611/Blog_using_Swagger/assets/137145389/cd872a39-a8df-411f-ba3d-fe88871b2527</p>
 
 
 
-
-https://github.com/Shymaa2611/Blog_using_Swagger/assets/137145389/cd872a39-a8df-411f-ba3d-fe88871b2527
 
 
 
