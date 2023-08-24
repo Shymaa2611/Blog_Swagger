@@ -1,8 +1,9 @@
 # Blog_using_Swagger
 
 steps :-
-1- install pyyaml and uritemplate
-2- add this code in project/urls.py
+<p>1- install pyyaml and uritemplate</p>
+<p>2- add this code in project/urls.py</p>
+<pre>
 from rest_framework.schemas import get_schema_view
 
 urlpatterns = [
@@ -13,6 +14,8 @@ urlpatterns = [
     ), name='api_schema'),
     # ...
 ]
+
+</pre>
 http://127.0.0.1:8000/api_schema/
 3-install Django Swagger module:
 pip install django-rest-swagger
