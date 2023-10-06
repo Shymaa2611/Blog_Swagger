@@ -61,9 +61,7 @@ urlpatterns = [
 </pre>
 <p>http://127.0.0.1:8000/docs/</p>
 
-<p>https://github.com/Shymaa2611/Blog_using_Swagger/assets/137145389/cd872a39-a8df-411f-ba3d-fe88871b2527</p>
-
-
+![Alt Text](./assets/137145389/cd872a39-a8df-411f-ba3d-fe88871b2527)
 
 
 
