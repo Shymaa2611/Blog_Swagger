@@ -1,4 +1,4 @@
-# Blog_using_Swagger
+# Blog_Swagger
 
 steps :-
 <p>1- install pyyaml and uritemplate</p>
